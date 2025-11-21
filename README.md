@@ -108,48 +108,7 @@ Synthetic Data Generation → Feature Engineering → Model Training → SHAP An
 - **Weather Impact:** Snowy conditions increase delay rate by 3x
 - **Gate Management:** Gate unavailability adds 15-30 minutes
 - **Critical Path:** Boarding time is the longest single operation
-
-## 🚀 Installation
-
-### Prerequisites
-- Python 3.13 or higher
-- pip package manager
-
-### Setup Instructions
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/rengavk/aviation-turnaround-optimizer.git
-cd aviation-turnaround-optimizer
-```
-
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Generate synthetic data**
-```bash
-python src/data_generator.py
-```
-
-4. **Train models**
-```bash
-python src/model_training.py
-```
-
-5. **Launch dashboard**
-```bash
-streamlit run app.py
-```
-
-## 📖 Usage
-
-### Running the Dashboard
-```bash
-streamlit run app.py
-```
-
+  
 The dashboard provides three main views:
 
 1. **Performance Dashboard**
@@ -168,16 +127,6 @@ The dashboard provides three main views:
    - Detailed delay factor analysis
    - Correlation heatmap
    - Individual flight turnaround Gantt charts
-
-### Generating New Data
-```bash
-python src/data_generator.py
-```
-
-### Retraining Models
-```bash
-python src/model_training.py
-```
 
 ## 📁 Project Structure
 
@@ -235,17 +184,9 @@ Created advanced features:
 
 ## 🔮 Future Enhancements
 
-### Short-term
 - [ ] Integrate real BTS (Bureau of Transportation Statistics) data
 - [ ] Add time-series forecasting for delay trends
 - [ ] Implement A/B testing framework for interventions
-
-### Medium-term
-- [ ] Develop optimization engine for resource allocation
-- [ ] Add multi-airport analysis
-- [ ] Create mobile-responsive dashboard
-
-### Long-term
 - [ ] Real-time data integration via APIs
 - [ ] Reinforcement learning for dynamic scheduling
 - [ ] Predictive maintenance integration
@@ -253,9 +194,9 @@ Created advanced features:
 
 ## 📈 Business Recommendations
 
-Based on the analysis, we recommend:
+Based on the analysis, I recommend:
 
-1. **Improve Arrival Punctuality**
+1. **Improving Arrival Punctuality**
    - Focus on upstream delay prevention
    - Implement buffer time management
 
@@ -275,24 +216,14 @@ Based on the analysis, we recommend:
    - Parallelize ground operations where possible
    - Reduce boarding time through better procedures
 
-## 👨‍💻 Author
-
-**Renganayaki Venkatakrishnan**
-- Data Scientist | Power BI Developer | Statistician
-- [LinkedIn](https://www.linkedin.com/in/renganayaki-venkatakrishnan-349a61186/)
-- [GitHub](https://github.com/rengavk)
-- [Portfolio](https://rengavk.github.io/)
-
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by real-world aviation operations research
 - Data generation methodology based on industry standards
 - SHAP library for model interpretability
 
 ---
-
-**Note:** This project uses synthetic data for demonstration purposes. For production deployment, integrate with real operational data sources.
