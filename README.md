@@ -2,10 +2,6 @@
 
 A comprehensive data science project that predicts flight turnaround delays, identifies root causes, and provides actionable recommendations to reduce delays by 6-12%.
 
-![Python](https://img.shields.io/badge/Python-3.13-blue)
-![ML](https://img.shields.io/badge/ML-XGBoost%20%7C%20RandomForest-green)
-![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-red)
-
 ## 📋 Table of Contents
 - [Problem Statement](#problem-statement)
 - [Business Impact](#business-impact)
