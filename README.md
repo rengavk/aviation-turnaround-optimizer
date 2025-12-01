@@ -18,7 +18,7 @@ A comprehensive data science project that predicts flight turnaround delays, ide
 - [Methodology](#methodology)
 - [Future Enhancements](#future-enhancements)
 
-## 🎯 Problem Statement
+## Problem Statement
 
 ### Business Scenario
 Airline X loses millions of dollars annually due to turnaround delays—the time spent preparing an aircraft for its next flight (cleaning, fueling, boarding, baggage handling, etc.). These delays cause a ripple effect, leading to:
@@ -30,7 +30,7 @@ Airline X loses millions of dollars annually due to turnaround delays—the time
 
 **Goal:** Identify the root causes of these delays and build an optimizer that can recommend operational changes to reduce delays by 6–12%.
 
-## 💰 Business Impact
+## Business Impact
 
 ### Current State (Based on Analysis)
 - **Delay Rate:** 37.33% of flights experience delays >15 minutes
@@ -43,7 +43,7 @@ With a 6-12% reduction in delays:
 - **Optimistic (12%):** $22,398 savings per 10,000 flights
 - **Annual Savings (for 100,000 flights/year):** $111,990 - $223,980
 
-## 📊 Key Performance Indicators
+## Key Performance Indicators
 
 ### Primary KPIs
 1. **On-Time Performance (OTP):** 62.67% (flights departing within 15 minutes of schedule)
@@ -149,7 +149,7 @@ aviation-turnaround-optimizer/
 └── README.md                       # Project documentation
 ```
 
-## 🔬 Methodology
+## Methodology
 
 ### Step 1: Problem Framing
 - Defined business scenario and impact
@@ -182,7 +182,7 @@ Created advanced features:
 - Interactive Streamlit dashboard
 - Real-time delay prediction interface
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Integrate real BTS (Bureau of Transportation Statistics) data
 - [ ] Add time-series forecasting for delay trends
@@ -192,7 +192,7 @@ Created advanced features:
 - [ ] Predictive maintenance integration
 - [ ] Cost-benefit analysis module
 
-## 📈 Business Recommendations
+## Business Recommendations
 
 Based on the analysis, I recommend:
 
@@ -219,11 +219,3 @@ Based on the analysis, I recommend:
 ## License
 
 This project is open source and available under the MIT License.
-
-## Acknowledgments
-
-- Inspired by real-world aviation operations research
-- Data generation methodology based on industry standards
-- SHAP library for model interpretability
-
----
