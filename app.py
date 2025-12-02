@@ -150,7 +150,7 @@ def main():
         df = load_data()
         rf_model, xgb_model = load_models()
     except FileNotFoundError:
-        st.error("⚠️ Data or models not found. Please run data generation and model training first.")
+        st.error(" Data or models not found. Please run data generation and model training first.")
         st.stop()
     
     # Sidebar
